@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951090055210",
+    "project_id": "appdocbao-cd687",
+    "storage_bucket": "appdocbao-cd687.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951090055210:android:00e528cd49eab560f31b53",
+        "android_client_info": {
+          "package_name": "com.example.cuoiki_nhom2a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951090055210-vtm8gaqubjklm9gk760546tcd2c8nure.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjZLPRrnjl_J0gHudCRVnhWiA_bo341P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951090055210-vtm8gaqubjklm9gk760546tcd2c8nure.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

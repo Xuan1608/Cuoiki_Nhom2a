@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    android:orientation="vertical">
+
+   <TextView
+       android:id="@+id/textViewdate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Date"
+       android:textSize="17dp"
+       android:paddingLeft="10dp"
+       android:textColor="@color/black"/>
+
+
+    <TextClock
+        android:id="@+id/textViewtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textColor="@color/black"
+        android:paddingLeft="26dp"
+        android:format24Hour="hh:mm:ss"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:paddingLeft="50dp"
+        android:text="Nhom 2a:\n19200525_Trần Xuân Toàn\n1900545_Nguyễn Thành Tú\n19200573_Trịnh Quang Vinh"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+ <ImageView
+     android:layout_width="130dp"
+     android:layout_height="130dp"
+     android:layout_gravity="center"
+     android:layout_marginTop="30dp"
+     android:background="@drawable/newspaper" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lock"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/lock"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button1"
+        android:text="LOGIN"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/buttonregis"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button1"
+        android:text="REGISTER"
+        android:textSize="25dp" />
+</LinearLayout>
